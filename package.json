@@ -1,8 +1,8 @@
 {
-  "name": "proyect_in_sass",
+  "name": "photoBlog",
   "version": "1.0.0",
-  "description": "A project to manage veterinarian emergencies",
-  "main": "index.js",
+  "description": "A project to show my tryps",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://jaimesalas@bitbucket.org/jaimesalas/veterinary_clinic.git"
+    "url": "git+https://nana_z@bitbucket.org/nana_z/photoblog.git"
   },
   "keywords": [
     "JavaScript",
@@ -19,12 +19,12 @@
   ],
   "author": "Brezo",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/jaimesalas/veterinary_clinic#readme",
+  "homepage": "https://nana_z@bitbucket.org/nana_z/photoblog.git#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
     "sass": "^1.0.0-beta.2"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-open": "^2.0.0",
     "gulp-sass": "^3.1.0"
