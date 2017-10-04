@@ -206,3 +206,17 @@ footer {
 footer p:after {
   margin-left: 5px;
   content: '\00A9'; }
+
+@media all and (max-width: 990px) {
+  h1 {
+    color: white;
+    font-size: 76px;
+    margin-top: 31%;
+    text-align: center; } }
+
+@media (max-width: 990px) {
+  h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 50%;
+    text-align: center; } }
