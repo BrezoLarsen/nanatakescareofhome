@@ -1,0 +1,53 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+.container {
+  margin: 50px; }
+  .container .owl-carousel .owl-item .photo {
+    height: 80%;
+    margin: auto; }
+    .container .owl-carousel .owl-item .photo img {
+      height: 100%;
+      margin: auto;
+      width: auto; }
+  .container .owl-carousel .owl-item .description h3 {
+    font-weight: lighter; }
+  .container .owl-nav {
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    width: 100%; }
+    .container .owl-nav .owl-next {
+      float: right; }
+      .container .owl-nav .owl-next .one {
+        width: 25px;
+        transform: rotate(35deg);
+        height: 2px;
+        background: #000;
+        position: relative;
+        top: -13px; }
+      .container .owl-nav .owl-next .two {
+        width: 25px;
+        transform: rotate(-35deg);
+        height: 2px;
+        background: #000; }
+    .container .owl-nav .owl-prev {
+      float: left; }
+      .container .owl-nav .owl-prev .prev {
+        transform: rotate(180deg); }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 20px; }

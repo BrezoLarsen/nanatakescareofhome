@@ -1,0 +1,42 @@
+/*      body, html {
+        body: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+      }*/
+       svg {
+         width: 33.33%;
+         height: 33.33%;
+         display: block;
+         margin: 50px auto;
+       }
+
+       svg > span {
+         position: absolute;
+         top: 0;
+         right: 0;
+       }
+
+      path, line, polyline {
+        stroke: #10B7CD;
+        stroke-width: 1px;
+      }
+
+      path {
+        fill: transparent;
+      }
+
+      polyline {
+        stroke-width: 4px;
+      }
+
+      #ps4 path {
+        stroke-width: 5px;
+      }
+
+      @media (max-width:700px) {
+        svg {
+          width:100%;
+        }
+      }

@@ -43,7 +43,13 @@ h3 {
     font-size: $baseSize + 2px;
 }
 
+.visible-xs {
+    display: none;
+}
 
+.hidden-xs {
+    display: block;
+}
 
 /* Layout */
 .container {
@@ -104,8 +110,13 @@ section {
 h1 {
   color: white;
   font-size: $baseSize + 100px;
-  margin-top: 12%;
+  margin-top: 20%;
   text-align: center;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
 }
 
 .hidden {
@@ -253,20 +264,35 @@ footer p:after {
 
 
 @media all and (max-width: 990px){
+    section {
+        background: white;
+    }
+
     h1 {
-    color: white;
-    font-size: 76px;
-    margin-top: 31%;
-    text-align: center;
-}
+        color: #18B7CD;
+        font-size: 76px;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 20%
+    }
+
+    .visible-xs {
+        display: block;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
 }
 
-@media (max-width: 990px) {
-
-h1 {
-    color: white;
-    font-size: 40px;
-    margin-top: 50%;
-    text-align: center;
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
 }
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 30px;
+    }
 }

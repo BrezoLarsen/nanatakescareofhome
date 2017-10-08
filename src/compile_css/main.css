@@ -39,6 +39,12 @@ h2 {
 h3 {
   font-size: 16px; }
 
+.visible-xs {
+  display: none; }
+
+.hidden-xs {
+  display: block; }
+
 /* Layout */
 .container {
   width: 100%;
@@ -81,7 +87,11 @@ section {
 h1 {
   color: white;
   font-size: 114px;
-  margin-top: 12%;
+  margin-top: 20%;
+  text-align: center; }
+
+a {
+  display: inline-block;
   text-align: center; }
 
 .hidden {
@@ -208,15 +218,23 @@ footer p:after {
   content: '\00A9'; }
 
 @media all and (max-width: 990px) {
+  section {
+    background: white; }
   h1 {
-    color: white;
+    color: #18B7CD;
     font-size: 76px;
-    margin-top: 31%;
-    text-align: center; } }
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20%; }
+  .visible-xs {
+    display: block; }
+  .hidden-xs {
+    display: none; } }
 
-@media (max-width: 990px) {
+@media (max-width: 600px) {
   h1 {
-    color: white;
-    font-size: 40px;
-    margin-top: 50%;
-    text-align: center; } }
+    font-size: 40px; } }
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 30px; } }

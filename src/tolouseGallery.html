@@ -1,0 +1,89 @@
+<html>
+<head>
+  <link rel="stylesheet" href="compile_css/gallery.css">
+  <link rel="stylesheet" href="compile_css/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="compile_css/owlcarousel/owl.theme.default.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+ <!--[if lte IE 9]>
+<script src="masonry.pkgd.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <!-- <header>
+     <nav>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        <li>|</li>
+        <li><a href='http://www.formacion.lemoncode.net/lemoncode-blog'>Lemoncode Blog</a></li>
+      </ul>
+    </nav>
+  </header> -->
+  <section class="container">
+
+    <div class="owl-carousel">
+      <div>
+        <div class="photo">
+          <img src="img/toulouse/IMG_1321.JPG">
+        </div>
+        <hr>
+        <div class="description">
+          <h3>¡¡Llegamos a Toulouse!!</h3>
+        </div>
+      </div>
+      <div>
+        <div class="photo">
+          <img src="img/toulouse/IMG_1337.JPG">
+        </div>
+        <hr>
+        <div class="description">
+          <h3>Camino a Carcassone, el primer día nos encontramos esto...</h3>
+        </div>
+      </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+      <div> Your Content </div>
+    </div>
+
+  </section>
+
+
+
+
+<!--   <footer>
+  <p>Lemoncode</p>
+  </footer> -->
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          items: 1,
+          navText:[
+            "<img class='prev' src='img/next.png'>",
+            "<img src='img/next.png'>"
+          ]
+      })
+    });
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>

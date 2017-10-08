@@ -1,0 +1,70 @@
+@import "init.scss";
+
+.container {
+	margin: 50px;
+
+	.owl-carousel {
+
+		.owl-item {	
+
+			.photo {
+				height: 80%;
+				margin: auto;
+
+				img {
+					height: 100%;
+					margin: auto;
+					width: auto;
+				}
+			}
+
+			.description h3 {
+				font-weight: lighter;
+			}
+		}
+	}
+
+	.owl-nav{
+		position: absolute;
+	    top: 50%;
+	    margin-top: -32px;
+	    width: 100%;
+
+	    .owl-next {
+	    	float: right;
+
+	    	.one {
+				width: 25px;
+			    transform: rotate(35deg);
+			    height: 2px;
+			    background:#000;
+			    position: relative;
+	    		top: -13px;
+			}
+
+			.two {
+				width: 25px;
+			    transform: rotate(-35deg);
+			    height: 2px;
+			    background:#000;
+			}
+	    }
+
+	    .owl-prev {
+	    	float: left;
+
+	    	.prev {
+	    		transform: rotate(180deg);
+	    	}
+	    }
+
+	    
+	}
+	
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	margin: 20px;
+}
