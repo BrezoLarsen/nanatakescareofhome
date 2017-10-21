@@ -16,11 +16,14 @@ menu, nav, section, summary, time, mark, audio, video {
   margin: 50px; }
   .container .owl-carousel .owl-item .photo {
     height: 80%;
-    margin: auto; }
+    margin: auto;
+    display: flex;
+    align-items: center; }
     .container .owl-carousel .owl-item .photo img {
-      height: 100%;
+      max-height: 100%;
       margin: auto;
-      width: auto; }
+      width: auto;
+      max-width: 100%;}
   .container .owl-carousel .owl-item .description h3 {
     font-weight: lighter; }
   .container .owl-nav {
@@ -47,7 +50,14 @@ menu, nav, section, summary, time, mark, audio, video {
       .container .owl-nav .owl-prev .prev {
         transform: rotate(180deg); }
 
+
 footer {
   position: absolute;
   bottom: 0;
   margin: 20px; }
+
+@media all and (max-width: 400px) {
+.container .owl-carousel .owl-item .photo img {
+     width: 100%;
+}
+}
